@@ -5,7 +5,6 @@ namespace App\Mailer;
 use PHPMailer\PHPMailer\SMTP;
 use App\Mailer\MailerInterface;
 use PHPMailer\PHPMailer\Exception;
-use PHPMailer\PHPMailer\PHPMailer;
 
 class WebmailMailer implements MailerInterface
 {
